@@ -1,5 +1,0 @@
-baseURL = "https://chrisdoherty.io"
-languageCode = "en-us"
-title = "Chris Doherty"
-
-theme = "book"
