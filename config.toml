@@ -8,6 +8,9 @@ theme = "book"
 #disablePathToLower = true
 enableGitInfo = true
 
+[permalinks]
+  posts = "/:year/:month/:title/"
+
 [markup]
 [markup.goldmark.renderer]
   unsafe = true
