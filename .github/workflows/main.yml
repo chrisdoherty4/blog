@@ -31,4 +31,7 @@ jobs:
           password: ${{ secrets.PUBLISHING_TOKEN }}
           remote_url: https://github.com/chrisdoherty4/chrisdoherty4.github.io.git
           target_branch: master
+          target_directory: public
+          commit_author: Chris Doherty
+          commit_author_email: chris@chrisdoherty.io
 
