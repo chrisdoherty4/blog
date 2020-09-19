@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Chris Doherty</title>
+    <link>https://chrisdoherty.io/tags/</link>
+    <description>Recent content in Tags on Chris Doherty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Sep 2020 09:51:23 -0600</lastBuildDate>
+    
+	<atom:link href="https://chrisdoherty.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>go</title>
+      <link>https://chrisdoherty.io/tags/go/</link>
+      <pubDate>Sat, 19 Sep 2020 09:51:23 -0600</pubDate>
+      
+      <guid>https://chrisdoherty.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go slice</title>
+      <link>https://chrisdoherty.io/tags/go-slice/</link>
+      <pubDate>Sat, 19 Sep 2020 09:51:23 -0600</pubDate>
+      
+      <guid>https://chrisdoherty.io/tags/go-slice/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

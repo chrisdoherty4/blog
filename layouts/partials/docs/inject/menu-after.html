@@ -1,0 +1,19 @@
+{{ if or .Site.Params.Github .Site.Params.Linkedin }}
+<ul>
+    {{ if .Site.Params.Github }}
+    <li>
+        <a href="{{ .Site.Params.Github }}" target="_blank"  rel="noopener">
+            <img src="/github/GitHub-Mark-32px.png" alt="Github" width="25px" />
+        </a>
+    </li>
+    {{ end }}
+
+    {{ if .Site.Params.Linkedin }}
+    <li>
+        <a href="{{ .Site.Params.Linkedin }}" target="_blank"  rel="noopener">
+            <img src="/linkedin/LI-In-Bug.png" alt="Linkedin" width="25px" />
+        </a>
+    </li>
+    {{ end }}
+</ul>
+{{ end }}
