@@ -30,4 +30,5 @@ jobs:
           username: ${{ secrets.PUBLISHING_USERNAME }}
           password: ${{ secrets.PUBLISHING_TOKEN }}
           remote_url: https://github.com/chrisdoherty4/chrisdoherty4.github.io.git
+          target_branch: master
 
