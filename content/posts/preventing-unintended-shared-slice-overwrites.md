@@ -3,10 +3,10 @@ title: "Preventing unintended overwrites with shared slices"
 date: 2020-09-19T09:51:23-06:00
 tags: 
     - go
-    - go slice
+    - programming
 categories:
-    - 2020
     - Programming
+    - Technology
 ---
 
 ## Slices
