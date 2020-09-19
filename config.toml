@@ -1,6 +1,6 @@
 baseURL = "https://chrisdoherty.io"
 languageCode = "en-us"
-title = "chrisdoherty.io"
+title = "Chris Doherty"
 
 theme = "book"
 
@@ -19,6 +19,12 @@ enableGitInfo = true
   url = "https://github.com/chrisdoherty4"
   weight = 10
 
+[[menu.after]]
+  name = "Linkedin"
+  url = "https://www.linkedin.com/in/chrisdoherty4/"
+  weight = 15
+
+
 [params]
   # (Optional, default true) Controls table of contents visibility on right side of pages.
   # Start and end levels can be controlled with markup.tableOfContents setting.
@@ -27,7 +33,7 @@ enableGitInfo = true
 
   # (Optional, default none) Set the path to a logo for the book. If the logo is
   # /static/logo.png then the path would be logo.png
-  # BookLogo = 'logo.png'
+  #BookLogo = 'self.jpg'
 
   # (Optional, default none) Set leaf bundle to render as side menu
   # When not specified file structure and weights will be used
@@ -40,7 +46,7 @@ enableGitInfo = true
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/chrisdoherty4/chrisdoherty.github.io'
+  BookRepo = 'https://github.com/chrisdoherty4/blog'
 
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
