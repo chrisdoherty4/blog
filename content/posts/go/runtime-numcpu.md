@@ -4,6 +4,7 @@ date: 2020-05-22T20:52:59-06:00
 
 tags:
     - go
+    - programming
 
 categories:
     - Programming
