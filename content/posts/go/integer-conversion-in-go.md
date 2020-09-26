@@ -18,6 +18,9 @@ Declarig a variable and assigning a value outside the representable bounds of th
 ```go
 // Fails because int8s bounds are -128 to 127
 var i int8 = 128
+
+var j int16 = 128
+var k int8 = j // Fails because j was declared as in8.
 ```
 
 Converting a data to a type with less bits resuts in data with the most significant bits being dropped.
