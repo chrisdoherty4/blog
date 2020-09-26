@@ -1,12 +1,11 @@
 ---
 title: "Preventing unintended overwrites with shared slices"
 date: 2020-09-19T09:51:23-06:00
-tags: 
+tags:
     - go
     - programming
 categories:
     - Programming
-    - Technology
 ---
 
 ## Slices
@@ -42,7 +41,7 @@ func main() {
     newSlice := originSlice[0:2] // {"Tomato", "Squash"}
     newSlice = append(newSlice, "Banana") // {"Tomato", "Squash", "Banana"}
 
-    // Origin slice inadvertently updated 
+    // Origin slice inadvertently updated
     fmt.Println(originSlice) // {"Tomato", "Squash", "Banana", "Spinach"}
 }
 ```
@@ -61,7 +60,7 @@ func main() {
     // Len > Capacity resulting in new backing array being created.
     newSlice = append(newSlice, "Banana")
 
-    // Origin slice inadvertently updated 
+    // Origin slice inadvertently updated
     fmt.Println(newSlice) // {"Tomato", "Squash", "Banana"}
     fmt.Println(originSlice) // {"Tomato", "Squash", "Lettuce", "Spinach"}
 }

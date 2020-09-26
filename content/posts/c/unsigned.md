@@ -8,7 +8,6 @@ tags:
     - programming
 
 categories:
-    - Technology
     - Programming
 ---
 
@@ -22,7 +21,7 @@ It's natural to think of integers in terms of signed types because they can repr
 
 If done incorrectly, converting between signed and unsigned integers can be dangerous. Even when done correctly, if the program is working with a value that can't be represented within the bounds of the target signedness the program experiences an error and that error must be dealt with.
 
-It's tempting, particularly if you know you aren't going to need to represent values < 0, to use unsigned. Doing so can have dire consequences. 
+It's tempting, particularly if you know you aren't going to need to represent values < 0, to use unsigned. Doing so can have dire consequences.
 
 ## Rule of thumb
 

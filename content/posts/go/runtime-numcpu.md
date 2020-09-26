@@ -8,7 +8,6 @@ tags:
 
 categories:
     - Programming
-    - Technology
 ---
 
 A number of books and articles I've read recently claim that [`runtime.NumCPU()`](https://golang.org/pkg/runtime/#NumCPU) returns the physical processor count. This isn't accurate: `runtime.NumCPU()` has always returned the logical processor count. Perhaps the authors use the terms physical and logical interchangably given most/all mainstream processors have simaltaneous multithreading technology?
