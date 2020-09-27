@@ -34,7 +34,7 @@ This results in import paths for the v2 major release requiring the v2 suffix.
 import "github.com/chrisdoherty4/example"
 
 // Version 2 import.
-import "github.com/chrisdoherty4/example/v2
+import "github.com/chrisdoherty4/example/v2"
 ```
 
 [](#v1-no-prefix) Note the suffix isn't required for v0 or v1 because many packages are not released beyond v1. For a complete answer see [Russ Cox's FAQ post](https://github.com/golang/go/issues/24301#issuecomment-371228664).
