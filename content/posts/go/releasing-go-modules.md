@@ -7,8 +7,6 @@ tags:
     - releasing
 
 categories:
-
-draft: true
 ---
 
 There are 2 main methods for releasing Go modules: Copying all sources to a version directory in the root of the repository _or_ creating a version branch. I don't like copying my full source to a subdirectory so I'm focusing this article on creating a version branch which is a common approach for releasing software.
